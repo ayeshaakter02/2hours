@@ -1,4 +1,11 @@
-    // The Slideshow class.
+setInterval(() => {
+                const now = new Date();
+                document.getElementById("clock").innerText =
+                  now.toLocaleString();
+              }, 1000);
+
+
+// The Slideshow class.
 class Slideshow {
     constructor(el) {
         
