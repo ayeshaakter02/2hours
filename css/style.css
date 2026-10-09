@@ -1,0 +1,30 @@
+
+li:hover {
+    font-weight: 600;
+}
+
+
+.client-logo {
+      max-height: 80px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+    .client-logo:hover {
+      filter: grayscale(0%);
+    }
+
+
+
+
+    .error {
+  color: red;
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
